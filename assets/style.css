@@ -1,0 +1,49 @@
+@import url(reset.css);
+
+body{
+    background: black;
+    background: url(./images/woman-code.png) cover no-repeat;
+}
+
+.banner{
+    color: white;
+    background:linear-gradient(to left top,rgba(0,0,0,.6),rgba(49, 168, 221, .2),rgba(0, 0, 0, .6)), url(./images/banner.png);
+    height: 605px;
+}
+.banner-content{
+    width: 510px;
+    height: 394px;
+    margin: auto;
+    text-align: center;
+    padding: 56px;
+}
+
+.logo{
+    width: 268px;
+    height: 268px;
+    margin:auto;
+    border-radius: 268px;
+    background: rgb(0, 0, 0, 0.20);
+}
+
+.banner-content h1{
+    margin: 16px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content button{
+    margin-top: 15px;
+    color:white;
+    padding: 19px 91px;
+    background: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+}
