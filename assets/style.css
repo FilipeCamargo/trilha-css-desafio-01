@@ -2,7 +2,6 @@
 
 body{
     background: black;
-    background: url(./images/woman-code.png) cover no-repeat;
 }
 
 .banner{
@@ -11,11 +10,11 @@ body{
     border-bottom: 1px solid #1472B7;
 }
 .banner-content{
-    width: 510px;
-    height: 394px;
-    margin: auto;
-    text-align: center;
-    padding-top: 56px;
+    width: 510px;   /*largura do elemento*/
+    height: 394px;  /* altura do elemento */
+    margin: auto;   /* calcula as margens para deixar o elemento centralizado */
+    text-align: center; /* alinha o texto no centro */
+    padding-top: 56px;  /* espacamento interno */
 }
 
 .logo{
@@ -39,8 +38,8 @@ body{
     font-weight: 900;
     background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; /* Necessario para alguns browsers */
+    -webkit-text-fill-color: transparent; /* Necessario para alguns browsers */
 }
 
 .banner-content button{
@@ -54,6 +53,7 @@ body{
     border-image: linear-gradient(#33A8DB,#1472B7);
     border-image-slice: 10;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
 }
 
@@ -69,7 +69,7 @@ body{
     font-size: 32px;
     background: linear-gradient(#33A8DB,#1472B7);
     background-clip: text;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
 }
 
